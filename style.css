@@ -1,0 +1,23 @@
+body {
+  background-color: #c7dee9;
+  color: #4e4e4e;
+}
+.left_side {
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(213, 231, 236);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+}
