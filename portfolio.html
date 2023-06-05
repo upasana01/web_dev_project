@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upasana Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,17 +19,44 @@
         <div class="left_side">Upasana Chaudhari</div>
         <div class="right_side">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Previous Work</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Previous Work</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section></section>
+      <section class="about">
+        <div class="left_section">
+          Hi! My name is Upasana. I am a
+          <span id="element"></span>
+          <div class="buttons"></div>
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+
+        <div class="right_section">
+          <img
+            src="../images/Photograph_of_Upasana.png"
+            alt="Display Image of Upasana Chaudhari"
+          />
+        </div>
+      </section>
+      <section class="previous_work"></section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "CS Grad Student.",
+          "Graduate Admin Assistant.",
+          "ML/AI Enthusiast.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
