@@ -12,51 +12,106 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="portfolio.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="left_side">Upasana Chaudhari</div>
-        <div class="right_side">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Previous Work</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact</a></li>
-          </ul>
-        </div>
+    <header class="header">
+      <a href="#" class="logo"> Upasana Chaudhari</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#previous_work">Previous Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact"> Contact Me</a>
       </nav>
     </header>
-    <main>
-      <section class="about">
-        <div class="left_section">
-          Hi! My name is Upasana. I am a
-          <span id="element"></span>
-          <div class="buttons"></div>
-          <button class="btn">Download Resume</button>
-          <button class="btn">Visit Github</button>
+    <section class="home" id="home">
+      <div class="home_description">
+        <h2>Hi! My name is Upasana Chaudhari.</h2>
+        <h3>I am a <span id="element"></span></h3>
+        <p>
+          I have a strong background in data analysis and a passion for
+          leveraging technology to solve complex problems.
+        </p>
+        <div class="buttons"></div>
+        <button class="btn">Download Resume</button>
+        <button class="btn">Visit Github</button>
+      </div>
+      <div class="home_img">
+        <img
+          src="../images/Photograph_of_Upasana.png"
+          alt="Display Image of Upasana Chaudhari"
+        />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about_img">
+        <img
+          src="../images/About_Upasana.jpg"
+          alt="Photgraph of Upasana for About Section"
+        />
+      </div>
+      <div class="about_description">
+        <h2 class="heading">About Me</h2>
+        <h3>CS Grad student at Portland State University</h3>
+        <p>
+          I am currently pursuing MS in Computer Science. I am a Graduate
+          Administrative Assistant at Planning and Sustainability Office at PSU.
+          I have 3 and half years of experience as an Analyst in Data Science at
+          Novartis Healthcare Pvt. Ltd. Hyderabad,India.I have extensive
+          experience analyzing large data sets and developing data-driven
+          insights. I am proficient in data processing, data analysis, as well
+          as scripting languages such as Python, and R. I've worked on several
+          end-to-end projects and successfully deployed them both independently
+          and collaboratively in teams.
+        </p>
+        <div class="tab_titles">
+          <p class="tab_links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <p class="tab_links" onclick="opentab('experience')">Experience</p>
+          <p class="tab_links" onclick="opentab('education')">Education</p>
         </div>
 
-        <div class="right_section">
-          <img
-            src="../images/Photograph_of_Upasana.png"
-            alt="Display Image of Upasana Chaudhari"
-          />
+        <div class="tab_contents active-tab" id="skills">
+          <ul>
+            <li>
+              <span>Machine Learning and Data Science</span><br />Python & R
+              Programming Languages
+            </li>
+            <li>
+              <span> Data Visualization </span><br />Microsoft Power Bi &
+              Tableau
+            </li>
+            <li><span>Databases</span><br />MySQL, MongoDB, NoSQL</li>
+          </ul>
         </div>
-      </section>
-      <section class="previous_work"></section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "CS Grad Student.",
-          "Graduate Admin Assistant.",
-          "ML/AI Enthusiast.",
-        ],
-        typeSpeed: 50,
-      });
-    </script>
+        <div class="tab_contents" id="'experience">
+          <ul>
+            <li>
+              <span>May 2023 - Current </span><br />Graduate Admin Assistant
+            </li>
+            <li><span>2019-2021</span><br />Analyst in Data Science</li>
+            <li><span>2018-2019</span><br />Intern in Integrated Insights</li>
+          </ul>
+        </div>
+        <div class="tab_contents" id="education">
+          <ul>
+            <li>
+              <span>Jan 2023 - June 2024</span><br />
+              M.S. in Computer Science
+            </li>
+            <li>
+              <span>July 2017 - April 2019</span><br />M.Tech in Computer
+              Engineering
+            </li>
+            <li>
+              <span>August 2012 - May 2016</span><br />B.E in Information
+              Technology
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
