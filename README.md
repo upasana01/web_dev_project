@@ -16,17 +16,17 @@ To run the code locally on your machine, follow these steps:
 
 1. Clone the repository to your local machine
 2. Navigate to the project directory.
-3. Open the `portfolio.html` file in your preferred web browser.
+3. Open the `index.html` file in your preferred web browser.
 
 ## Outside Sources
 
 This project utilizes the following external libraries and frameworks:
 
 - Bootstrap - A popular CSS framework for building responsive and mobile-first websites.
-  (https:https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+  (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 - Google Fonts -Google Fonts is a computer font and web font service.
-  (https:https://fonts.google.com/)
+  (https://fonts.google.com/)
 
 ## Deployment
 
