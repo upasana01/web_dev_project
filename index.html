@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upasana Portfolio Website</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,26 +14,23 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
       crossorigin="anonymous"
     ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="portfolio.js"></script>
+    <script defer src="main.js"></script>
   </head>
   <body>
     <header class="header">
@@ -54,13 +51,16 @@
           I have a strong background in data analysis and a passion for
           leveraging technology to solve complex problems.
         </p>
-        <div class="buttons"></div>
-        <button class="btn">Download Resume</button>
-        <button class="btn">Visit Github</button>
+        <a href="files/Resume_Upasana_Chaudhari.pdf" class="btn">
+          Download Resume</a
+        >
+        <a href="https://github.com/upchaudhari/web_dev_project" class="btn">
+          Visit GitHub
+        </a>
       </div>
       <div class="home_img">
         <img
-          src="../images/Photograph_of_Upasana.png"
+          src="images/Photograph_of_Upasana.png"
           alt="Display Image of Upasana Chaudhari"
         />
       </div>
@@ -68,7 +68,7 @@
     <section class="about" id="about">
       <div class="about_img">
         <img
-          src="../images/About_Upasana.jpg"
+          src="images/About_Upasana.jpg"
           alt="Photgraph of Upasana for About Section"
         />
       </div>
@@ -86,52 +86,6 @@
           end-to-end projects and successfully deployed them both independently
           and collaboratively in teams.
         </p>
-        <div class="tab_titles">
-          <p class="tab_links active-link" onclick="opentab('skills')">
-            Skills
-          </p>
-          <p class="tab_links" onclick="opentab('experience')">Experience</p>
-          <p class="tab_links" onclick="opentab('education')">Education</p>
-        </div>
-
-        <div class="tab_contents active-tab" id="skills">
-          <ul>
-            <li>
-              <span>Machine Learning and Data Science</span><br />Python & R
-              Programming Languages
-            </li>
-            <li>
-              <span> Data Visualization </span><br />Microsoft Power Bi &
-              Tableau
-            </li>
-            <li><span>Databases</span><br />MySQL, MongoDB, NoSQL</li>
-          </ul>
-        </div>
-        <div class="tab_contents" id="'experience">
-          <ul>
-            <li>
-              <span>May 2023 - Current </span><br />Graduate Admin Assistant
-            </li>
-            <li><span>2019-2021</span><br />Analyst in Data Science</li>
-            <li><span>2018-2019</span><br />Intern in Integrated Insights</li>
-          </ul>
-        </div>
-        <div class="tab_contents" id="education">
-          <ul>
-            <li>
-              <span>Jan 2023 - June 2024</span><br />
-              M.S. in Computer Science
-            </li>
-            <li>
-              <span>July 2017 - April 2019</span><br />M.Tech in Computer
-              Engineering
-            </li>
-            <li>
-              <span>August 2012 - May 2016</span><br />B.E in Information
-              Technology
-            </li>
-          </ul>
-        </div>
       </div>
     </section>
     <section class="previous_work" id="previous_work">
@@ -140,7 +94,7 @@
         <div class="previous_work-box">
           <h3>
             Graduate Administrative Assistant
-            <span id="work_year"> May 2023 - Current</span>
+            <span> May 2023 - Current</span>
           </h3>
           <p>
             I am working as a Sustainability Data Analyst at Planning and
@@ -153,7 +107,7 @@
         <div class="previous_work-box">
           <h3>
             Analyst in Data Science
-            <span id="work_year"> Aug 2019 - Nov 2021 </span>
+            <span> Aug 2019 - Nov 2021 </span>
           </h3>
           <p>
             I have 2 and half years of experience working in Data Science Team
@@ -168,7 +122,7 @@
         <div class="previous_work-box">
           <h3>
             Intern at Integrated Insights
-            <span id="work_year"> July 2019 - July 2018</span>
+            <span> July 2019 - July 2018</span>
           </h3>
           <p>
             I worked for 13 months as an Intern at Novartis Healthcare in
@@ -189,7 +143,7 @@
         <div class="projects-box">
           <h3>
             Graduate Administrative Assistant
-            <span id="project_year"> May 2023 - Current</span>
+            <span> May 2023 - Current</span>
           </h3>
           <p>
             I am working as a Sustainability Data Analyst at Planning and
@@ -202,7 +156,7 @@
         <div class="projects-box">
           <h3>
             Analyst in Data Science
-            <span id="project_year"> Aug 2019 - Nov 2021 </span>
+            <span> Aug 2019 - Nov 2021 </span>
           </h3>
           <p>
             I have 2 and half years of experience working in Data Science Team
@@ -217,7 +171,7 @@
         <div class="projects-box">
           <h3>
             Intern at Integrated Insights
-            <span id="project_year"> July 2019 - July 2018</span>
+            <span> July 2019 - July 2018</span>
           </h3>
           <p>
             I worked for 13 months as an Intern at Novartis Healthcare in
@@ -234,7 +188,41 @@
     </section>
     <section class="container py-5 mb-5" id="contact">
       <div><p class="sectionHeading">Contact Me</p></div>
-      <form
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+      <!-- <form
         class="contactForm"
         action="https://formspree.io/f/mgebjnbb"
         method="POST"
@@ -301,7 +289,7 @@
             </div>
           </div>
         </div>
-      </form>
+      </form> -->
     </section>
   </body>
 </html>

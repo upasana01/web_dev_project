@@ -17,7 +17,7 @@
   --yellow: rgb(247, 228, 62);
 }
 html {
-  font-size: 60%;
+  font-size: 62.5%;
   overflow-x: hidden;
 }
 body {
@@ -34,7 +34,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.8rem 5%;
+  padding: 0.8rem 9%;
   background-color: var(--violet);
   display: flex;
   justify-content: space-between;
@@ -48,6 +48,7 @@ section {
   cursor: default;
   text-decoration: none;
 }
+
 .navbar a {
   font-size: 2.8rem;
   color: var(--white);
@@ -284,4 +285,36 @@ section {
 
 .btn-secondary:hover {
   background-color: #545b62;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }

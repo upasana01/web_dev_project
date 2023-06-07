@@ -1,10 +1,10 @@
-# web_dev_project
+# Personal Portfolio
 
 This is my portfolio website created using HTML, JavaScript, and CSS. The purpose of this website is final project for course CS 463/563 – Intro to Web Development. This website will have details regarding my professional experience, projects I have worked on until now, Qualification details etc.
 
 ## Features
 
-- Home section has breif introduction about me along with my photograph.
+- Home section has brief introduction about me along with my photograph.
 - About section to provide information about me, the skills I hold, my experience and education details.
 - Previous work section contains my experience in detail.
 - Projects section to showcase the projects I have worked on while I was working with an organization.
