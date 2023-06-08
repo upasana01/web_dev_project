@@ -86,7 +86,7 @@ section {
   font-weight: 500;
 }
 .home_img img {
-  width: 25vw;
+  width: 20vw;
   border-radius: 20px;
 }
 .home .buttons {
@@ -104,12 +104,12 @@ section {
   margin: 10px;
 }
 
-.about {
+/* .about {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-}
+} */
 
 .about_img img {
   width: 25vw;
@@ -119,34 +119,33 @@ section {
 .about_description {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .card {
   flex: 1 1 300px;
   margin-right: 20px;
   background-color: var(--darkviolet);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 10px;
-  margin-left: 60px;
+  margin-left: 10px;
+}
+.card-header {
+  font-size: 3rem;
 }
 .about_description h2 {
   text-align: left;
   line-height: 1.2;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-.about_description h3 {
-  font-size: 2.8rem;
-  margin-left: 60px;
-}
 .about_description p {
-  font-size: 2.5rem;
-  margin-left: 60px;
+  font-size: 2rem;
 }
 
 .previous_work h2 {
-  margin: 25px;
   font-size: 3.2rem;
+  margin-bottom: 10px;
 }
 
 .previous_work h3 {
@@ -168,11 +167,10 @@ section {
 .previous_work-container .previous_work-box {
   flex: 1 1 30 rem;
   background-color: var(--violet);
-  padding: 3rem 2rem 4rem;
+  padding: 2rem 1rem 1rem;
   border-radius: 2rem solid var(--pink);
 }
 .projects h2 {
-  margin: 25px;
   font-size: 3.2rem;
 }
 
@@ -195,7 +193,7 @@ section {
 .projects-container .projects-box {
   flex: 1 1 30 rem;
   background-color: var(--violet);
-  padding: 3rem 2rem 4rem;
+  padding: 2rem 1rem 1rem;
   border-radius: 2rem solid var(--pink);
 }
 
@@ -205,8 +203,8 @@ section {
 }
 
 .sectionHeading {
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -217,7 +215,7 @@ section {
 }
 
 .form-label {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 2rem;
 }
 
@@ -234,7 +232,7 @@ textarea.form-control {
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 3px;
   border: none;
   color: var(--darkviolet);
@@ -249,7 +247,7 @@ textarea.form-control {
 
 .btn.formButton {
   background-color: var(--pink);
-  padding: 15px 50px;
+  padding: 10px 40px;
 }
 
 .btn.btn-secondary {
