@@ -29,8 +29,11 @@ This project utilizes the following external libraries and frameworks:
   (https://fonts.google.com/)
   
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
 https://www.w3schools.com/
+
 https://www.tutorialspoint.com/css/index.htm
+
 https://formspree.io
 
 
