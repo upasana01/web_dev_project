@@ -105,12 +105,12 @@ section {
   margin: 10px;
 }
 
-/* .about {
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-} */
+}
 
 .about_img img {
   width: 25vw;
@@ -127,7 +127,7 @@ section {
   flex: 1 1 300px;
   margin-right: 20px;
   background-color: var(--darkviolet);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 10px;
   margin-left: 10px;
 }
@@ -137,11 +137,11 @@ section {
 .about_description h2 {
   text-align: left;
   line-height: 1.2;
-  font-size: 3rem;
+  font-size: 3.4rem;
 }
 
 .about_description p {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 
 .previous_work h2 {
@@ -166,11 +166,10 @@ section {
 }
 
 .previous_work-container .previous_work-box {
-  flex: 1 1 30 rem;
   background-color: var(--violet);
   padding: 2rem 1rem 1rem;
-  border-radius: 2rem solid var(--pink);
 }
+
 .projects h2 {
   font-size: 3.2rem;
 }
@@ -192,10 +191,8 @@ section {
 }
 
 .projects-container .projects-box {
-  flex: 1 1 30 rem;
   background-color: var(--violet);
   padding: 2rem 1rem 1rem;
-  border-radius: 2rem solid var(--pink);
 }
 
 .container {
