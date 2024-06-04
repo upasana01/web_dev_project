@@ -40,4 +40,4 @@ https://formspree.io
 ## Deployment
 
 The portfolio website is deployed using GitHub Pages. You can access the deployed site at the following URL:
-https://upchaudhari.github.io/web_dev_project/
+https://upasana01.github.io/web_dev_project/
